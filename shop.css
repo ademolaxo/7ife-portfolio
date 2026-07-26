@@ -1,0 +1,78 @@
+body.shop-page {
+  background: #f5f2ec;
+  color: #0a0a0a;
+  overflow-x: hidden;
+  overflow-y: auto;
+  height: auto;
+}
+
+body.shop-page nav {
+  background: #f5f2ec;
+  border-bottom: 1px solid #e0ddd7;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+body.shop-page .nav-links a,
+body.shop-page .nav-brand,
+body.shop-page .nav-projects {
+  color: #0a0a0a;
+}
+
+body.shop-page .nav-links a::after {
+  background: #0a0a0a;
+}
+
+body.shop-page .projects-panel {
+  background: #f5f2ec;
+  border-left: 1px solid #e0ddd7;
+}
+
+body.shop-page .projects-category-title,
+body.shop-page .projects-list a,
+body.shop-page .panel-close {
+  color: #0a0a0a;
+}
+
+body.shop-page .projects-list a::after {
+  background: #0a0a0a;
+}
+
+.shop-main {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.coming-soon {
+  text-align: center;
+  max-width: 500px;
+  animation: fadeUp 0.8s ease forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
+}
+
+.coming-soon-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(4rem, 10vw, 8rem);
+  font-weight: 400;
+  line-height: 1;
+  color: #0a0a0a;
+  margin-bottom: 2rem;
+}
+
+.coming-soon-text {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.85rem;
+  line-height: 1.85;
+  color: #888;
+  font-weight: 300;
+}
+
+
+
